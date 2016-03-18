@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-default",
+  "version": "1.0.0",
+  "description": "Extensible shared config for [ESLint](http://eslint.org/)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/aribouius/eslint-config-default",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aribouius/eslint-config-default.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aribouius/eslint-config-default/issues"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "dependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint-config-airbnb": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-react": "^4.2.3"
+  }
+}
